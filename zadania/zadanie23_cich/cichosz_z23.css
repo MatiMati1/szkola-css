@@ -1,0 +1,39 @@
+p#pogrubienie_cichosz
+{
+	font-size: 32px;
+	color: #965ACB;
+}
+
+p#pochylona_cichosz
+{
+	font-size: 37pt;
+	color: #E4BE67;
+}
+
+p#index_gorny_cichosz
+{
+	font-size: 1.2cm;
+	color: #AA8C17;
+}
+
+p#index_dolny_cichosz
+{
+	font-size: 1.9cm;
+	color: rgb(27%, 94%, 87%);
+}
+
+p#mono_cichosz
+{
+	font-size: 42px;
+	color: #2ADC67;
+}
+
+p#powiekszenie_cichosz
+{
+	color: #643C99;
+}
+
+p#pomniejszenie_cichosz
+{
+	color: rgb(78%, 62%, 21%);
+}
