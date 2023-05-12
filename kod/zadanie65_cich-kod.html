@@ -1,0 +1,103 @@
+<html>
+	<head>
+
+	</head>
+	<body>
+		<center>
+		<h1>HTML</h1>
+		<textarea cols="102" rows="19">
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel='stylesheet' href='zadanie65_cich.css'>
+</head>
+
+<body>
+    <div id="pierwszy_cichosz">
+        <p>Pierwszy akpit/pierwszy DIV--> cichosz <br>nazwa id akapitu id="pierwszy_cichosz"</p>
+        <p>Drugi akapit/pierwszy DIV<br>
+            pierwszy akapit --> p:first-child {font-size:7mm;font style:italic;}<br>
+            bo numer nieparzysty w dzienniku<br>
+            pozostałe akapity --> p{font-size:11pt;}<br>
+            bo numer nieparzysty w dzienniku<br>
+            szerokość bloku = 700 + 7*4 = 728pt<br>
+            pierwszy div --> kolor jasno zielony</p>
+        <p>trzeci akapit/pierwszy DIV<br>
+            pierwszy div--> obramowanie czarne<br>
+            pierwszy div--> obramowanie grubość 3px ciągłe<br>
+            pierwszy div-->r1=7+7=14<br></p>
+    </div>
+    <div id="drugi_cichosz">
+        <p>Pierwszy akpit/drugi DIV--> mateusz <br>nazwa id akapitu id="drugi_cichosz"</p>
+        <p>Drugi akapit/drugi DIV<br>
+            kolor DIV --> kolor jasno niebieski</p><br>
+        <p>trzeci akapit/drugi DIV<br>
+            drugi div--> obramowanie czarne<br>
+            drugi div--> obramowanie grubość 5px ciągłe<br>
+            drugi div-->r2=7+7=14<br></p>
+    </div>
+    <div id="trzeci_cichosz">
+        <p>Pierwszy akpit/trzeci DIV--> 1P <br>nazwa id akapitu id="trzeci_cichosz"</p>
+        <p>Drugi akapit/trzeci DIV<br>
+            kolor DIV --> kolor fioletowy</p><br>
+        <p>trzeci akapit/trzeci DIV<br>
+            trzeci div--> obramowanie czarne<br>
+            trzeci div--> obramowanie grubość 7px ciągłe<br>
+            trzeci div-->r3=7+3=10<br></p>
+    </div>
+</body>
+
+</html>
+		</textarea>
+		</center>
+		<center>
+		<h1>CSS</h1>
+		<textarea cols="102" rows="29">
+body
+{
+background-color: rgb(194,181,180);
+}
+
+p
+{
+font-size: 11pt;
+}
+
+p:first-child
+{
+font-size: 7mm;
+font-style: italic;
+}
+
+#pierwszy_cichosz
+{
+width: 728pt;
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(44,217,22);
+border-radius: 14px;
+border: black solid 3px;
+}
+
+#drugi_cichosz
+{
+width: 928pt;
+margin-left: auto;
+margin-right: auto;
+background-color: rgb(12,170,237);
+border-radius: 14px;
+border: darkblue solid 5px;
+}
+
+#trzeci_cichosz
+{
+width: 1128pt;
+background-color: rgb(194,18,230);
+border-radius: 10px;
+border: purple solid 7px;
+}
+		</textarea>
+		</center>
+	</body>
+</html>

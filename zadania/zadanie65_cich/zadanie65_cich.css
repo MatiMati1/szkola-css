@@ -1,0 +1,43 @@
+body
+{
+    background-color: rgb(194,181,180);
+}
+
+p
+{
+    font-size: 11pt;
+}
+
+p:first-child
+{
+    font-size: 7mm;
+    font-style: italic;
+}
+
+#pierwszy_cichosz
+{
+    width: 728pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(44,217,22);
+    border-radius: 14px;
+    border: black solid 3px;
+}
+
+#drugi_cichosz
+{
+    width: 928pt;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(12,170,237);
+    border-radius: 14px;
+    border: darkblue solid 5px;
+}
+
+#trzeci_cichosz
+{
+    width: 1128pt;
+    background-color: rgb(194,18,230);
+    border-radius: 10px;
+    border: purple solid 7px;
+}

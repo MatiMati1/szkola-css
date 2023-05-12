@@ -1,0 +1,49 @@
+#akapit1
+{
+    font-size: 22pt;
+    color: yellow;
+}
+#akapit1:first-letter
+{
+    font-size: 113pt;
+    color: red;
+}
+
+#akapit2
+{
+    font-size: 20pt;
+    color: yellow;
+}
+
+#akapit2:first-letter
+{
+    font-size: 113pt;
+    color: gold;
+}
+
+h1
+{
+    color: purple;
+    font-size: 20pt;
+}
+
+h1:first-letter
+{
+    color: silver;
+    font-size: 113pt;
+}
+
+#akapit3
+{
+    font-size: 20pt;
+    color: darkblue;
+}
+#akapit3:first-letter
+{
+    font-size: 113pt;
+    color: red;
+}
+#akapit3::first-line
+{
+    color: red;
+}

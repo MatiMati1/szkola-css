@@ -1,0 +1,72 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <table border="1">
+            <tr>
+                <td colspan="2">
+                    <h1>Zaokrąglenie narożników obszarów bloków np. DIV</h1>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zaokrąglenie górnego-lewego narożnika:
+                </td>
+                <td>
+                    selektor { border-top-left-radius: zaokrąglenie }
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zaokrąglenie górnego-prawego narożnika:
+                </td>
+                <td>
+                    selektor { border-top-right-radius: zaokrąglenie }
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zaokrąglenie dolnego-prawego narożnika:
+                </td>
+                <td>
+                    selektor { border-bottom-right-radius: zaokrąglenie }
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Zaokrąglenie dolnego-lewego narożnika:
+                </td>
+                <td>
+                    selektor { border-bottom-left-radius: zaokrąglenie }
+                </td>
+            </tr>
+        </table>
+
+        <h1>Zastosowanie zaokrąglania narożników</h1><br>
+        We wszystkich przypadkach selektorem może być dowolny znacznik, np. <br>
+        p – akapit<br>
+        h1 –nagłówek<br>
+        div –blok<br><br>
+
+        Natomiast "zaokrąglenie" określa promień wyrażony w jednostkach długości albo w <br>
+        procentach względem obszaru obramowania. Możliwe jest tutaj <br>
+        podanie:<br>
+        jednej wartości - zaokrąglenie symetryczne<br>
+        dwóch wartości - pierwsza określa poziomy promień ćwiartki elipsy zaokrąglenia, a <br>
+        druga - pionowy<br><br>
+
+        <h1>Przykład</h1><br>
+        selektor<br>
+        {<br>
+            border-top-right-radius: 10px<br>
+        }<br><br>
+
+        <h1>Centrowanie divów</h1><br>
+        selektor bloku div<br>
+        {<br>
+            margin-left: auto;<br>
+            margin-right: auto;<br>
+        }<br>
+    </body>
+</html>
